@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ClockCountdown, Globe, Zap, Users } from 'lucide-react';
+import { Clock, Globe, Zap, Users } from 'lucide-react';
 
 const VisionStatement = () => {
   return (
@@ -39,7 +39,7 @@ const VisionStatement = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-cutover-neonBlue/10 mb-4">
-                  <ClockCountdown size={32} className="text-cutover-neonBlue" />
+                  <Clock size={32} className="text-cutover-neonBlue" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Execution Time</h3>
                 <p className="text-cutover-lightGray">Reduce operational execution time by 90% through intelligent automation</p>
